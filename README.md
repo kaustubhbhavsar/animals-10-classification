@@ -4,7 +4,7 @@
 <div align="center">
   <h3 align="center">Identifying Animals from Images</h3>
   <p align="center">
-    Multiclass Classification | Transfer Learning | Class Imblance
+    Multiclass Classification | Transfer Learning | Class Imbalance
     
   </p>
 </div>
