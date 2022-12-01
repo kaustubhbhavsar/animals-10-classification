@@ -29,8 +29,8 @@
 ## Directory Structure
 ```
 ├── Data Analysis                  # Data analysis files
-    ├── data_analysis.ipynb        # data analysis notebook 
-    └── image_size_analysis.ipynb  # image size analysis notebook
+    ├── data_analysis.ipynb        # Data analysis notebook 
+    └── image_size_analysis.ipynb  # Image size analysis notebook
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
