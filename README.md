@@ -78,6 +78,6 @@ Notebooks can also be run directly on google colab (make sure to upload required
 
 > NOTE: Notebooks may use python scripts to run.
 
-> NOTE: High RAM is required to run the projects. GPU can make life easier.
+> NOTE: High RAM is required to run the project. GPU can make life easier.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
