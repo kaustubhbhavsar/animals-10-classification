@@ -27,6 +27,37 @@
 
 <!-- PROJECT SUMMARY -->
 ## Summary
+At first, the image data is analyzed to understand the structure of the dataset, the number of classes and images per class, as well as the quality of the images (<a href="data_analysis.ipynb">data_analysis.ipynb</a>). Image sizes are analyzed seprately (<a href="image_size_analysis.ipynb">image_size_analysis.ipynb</a>). Image sizes are found to be of varying sizes, thus suggesting that progressive resizing could lead to better results. 
+
+Shallownet (<a href="shallownet.py">shallownet.py</a>), Lenet (<a href="lenet.py">lenet.py</a>), and miniVGGnet (<a href="minivggnet.py">minivggnet.py</a>) model architectures are implemented from scratch. Whereas, MobileNetV3Large (<a href="mobilenetv3l.py">mobilenetv3l.py</a>) and (<a href="mobilenetv3s.py">mobilenetv3s.py</a>) model architecture is specifically chosen for transfer learning. Why? What could be the application of identifying animals through images?
+*   In forests, to send alerts when specific animal is identified through surveillance camera or drones.
+*   Common users, using a mobile application to identify animals.
+
+In both the mentioned scenarios, mobile and embedded vision system is used and MobileNet model architecture is specifically desined for it.
+Resnet50v2 (<a href="resnet50v2.py">resnet50v2.py</a>) model architecture is used to comparative analysis with MobileNetV3 model architectures.
+
+Training results, and observations from various experiments carried out are explained in depth in training files (notebooks).
+
+Summarizing top results:
+
+<div align="center">
+
+Rank | Model Architecture | Model Number | Trainable Parameters | Training Loss | Training Acc | Validation Loss | Validation Acc
+:---: | :------------------------------------------------------------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------:
+1 | MobileNetV3Large | 1 | 9,610 | 0.1080 | 0.9818 | 0.1134 | 0.9716 
+2 | MobileNetV3Large | 2 | 124,298 | 0.0939 | 0.9842 | 0.1100 | 0.9731
+3 | ResNet50V2       | - | 20,490 | 0.1240 | 0.9780 | 0.1517 | 0.9593 
+4 | MobileNetV3Small | 2 | 75,146 | 0.1769 | 0.9687 | 0.1780 | 0.9459 
+
+</div>
+
+> NOTE: <b>'Model Number'</b> is the number given to a particular configuration of the given model architecture. Refer training notebooks for in depth experiments, their configurations, and results.
+
+> NOTE: Trainable parameters are result of the model configuration. Therefore, high number of trainable parameters is seen in MobileNetV3Small Model 3.
+
+Although, <b>MobileNetV3Large Model 2</b> performs slightly better than <b>MobileNetV3Large Model 1</b>, however, the later one uses approximately 12X fewer trainable parameters compared to the former. Therefore, <b>MobileNetV3Large Model 2</b> is chosen as the best model.
+
+All the four models are saved in h5 format in <a href="Models">Models</a> directory.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
