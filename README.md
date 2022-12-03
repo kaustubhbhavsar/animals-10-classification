@@ -73,7 +73,7 @@ All the four models are saved in h5 format in <a href="Models">Models</a> direct
     ├── mobilenetv3l_basic_10_0.113.h5    # MobileNetV3Large model 1 
     ├── mobilenetv3l_dense_04_0.110.h5    # MobileNetV3Large model 2
     ├── mobilenetv3s_dense_07_0.178.h5    # MobileNetV3Small model 2
-    └── resnet50v2_basic_06_0.152.h5      # ResNet50V2
+    └── resnet50v2_basic_06_0.152.h5      # ResNet50V2 model
 ├── Scripts                               # Scripts 
     ├── helper_functions.py               # Functions to make life easy
     ├── lenet.py                          # LeNet model architecture (from scratch)
