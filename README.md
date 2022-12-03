@@ -36,7 +36,9 @@ Shallownet (<a href="Scripts/shallownet.py">shallownet.py</a>), Lenet (<a href="
 In both the mentioned scenarios, mobile and embedded vision system is used and MobileNet model architecture is specifically desined for it.
 Resnet50v2 (<a href="Scripts/resnet50v2.py">resnet50v2.py</a>) model architecture is used to comparative analysis with MobileNetV3 model architectures.
 
-Training results, and observations from various experiments carried out are explained in depth in training files (notebooks).
+Class imbalance issue is handled using class weights.
+
+Training results, and observations from various experiments (using both transfer learning and fron scratch) carried out are explained in depth in training files (notebooks).
 
 Summarizing top results:
 
