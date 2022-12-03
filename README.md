@@ -55,11 +55,11 @@ Rank | Model Architecture | Model Number | Trainable Parameters | Training Loss 
 
 > NOTE: <b>'Model Number'</b> is the number given to a particular configuration of the given model architecture. Refer training notebooks for in depth experiments, their configurations, and results.
 
-> NOTE: Trainable parameters are result of the model configuration. Therefore, high number of trainable parameters is seen in MobileNetV3Small Model 3.
+> NOTE: Trainable parameters are result of the model configuration. Therefore, high number of trainable parameters is seen in MobileNetV3Small Model 2.
 
 Although, <b>MobileNetV3Large Model 2</b> performs slightly better than <b>MobileNetV3Large Model 1</b>, however, the later one uses approximately 12X fewer trainable parameters compared to the former. Therefore, <b>MobileNetV3Large Model 2</b> is chosen as the best model.
 
-All the four models are saved in h5 format in <a href="Models">Models</a> directory.
+All the four models are saved in H5 format in <a href="Models">Models</a> directory.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
