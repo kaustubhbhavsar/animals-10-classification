@@ -35,7 +35,7 @@ class ShallowNet:
         # normalizing the images
         model.add(Rescaling(1./255, input_shape=inputShape))
 
-		# define the model layers
+	# define the model layers
         model.add(Conv2D(32, (3, 3), padding="same", input_shape=inputShape))
         model.add(Activation("relu"))
         model.add(Flatten())
