@@ -27,14 +27,14 @@
 
 <!-- PROJECT SUMMARY -->
 ## Summary
-At first, the image data is analyzed to understand the structure of the dataset, the number of classes and images per class, as well as the quality of the images (<a href="data_analysis.ipynb">data_analysis.ipynb</a>). Image sizes are analyzed seprately (<a href="image_size_analysis.ipynb">image_size_analysis.ipynb</a>). Image sizes are found to be of varying sizes, thus suggesting that progressive resizing could lead to better results. 
+At first, the image data is analyzed to understand the structure of the dataset, the number of classes and images per class, as well as the quality of the images (<a href="Data Analysis/data_analysis.ipynb">data_analysis.ipynb</a>). Image sizes are analyzed seprately (<a href="Data Analysis/image_size_analysis.ipynb">image_size_analysis.ipynb</a>). Image sizes are found to be of varying sizes, thus suggesting that progressive resizing could lead to better results. 
 
-Shallownet (<a href="shallownet.py">shallownet.py</a>), Lenet (<a href="lenet.py">lenet.py</a>), and miniVGGnet (<a href="minivggnet.py">minivggnet.py</a>) model architectures are implemented from scratch. Whereas, MobileNetV3Large (<a href="mobilenetv3l.py">mobilenetv3l.py</a>) and (<a href="mobilenetv3s.py">mobilenetv3s.py</a>) model architecture is specifically chosen for transfer learning. Why? What could be the application of identifying animals through images?
+Shallownet (<a href="Scripts/shallownet.py">shallownet.py</a>), Lenet (<a href="Scripts/lenet.py">lenet.py</a>), and miniVGGnet (<a href="Scripts/minivggnet.py">minivggnet.py</a>) model architectures are implemented from scratch. Whereas, MobileNetV3Large (<a href="Scripts/mobilenetv3l.py">mobilenetv3l.py</a>) and (<a href="Scripts/mobilenetv3s.py">mobilenetv3s.py</a>) model architecture is specifically chosen for transfer learning. Why? What could be the application of identifying animals through images?
 *   In forests, to send alerts when specific animal is identified through surveillance camera or drones.
 *   Common users, using a mobile application to identify animals.
 
 In both the mentioned scenarios, mobile and embedded vision system is used and MobileNet model architecture is specifically desined for it.
-Resnet50v2 (<a href="resnet50v2.py">resnet50v2.py</a>) model architecture is used to comparative analysis with MobileNetV3 model architectures.
+Resnet50v2 (<a href="Scripts/resnet50v2.py">resnet50v2.py</a>) model architecture is used to comparative analysis with MobileNetV3 model architectures.
 
 Training results, and observations from various experiments carried out are explained in depth in training files (notebooks).
 
