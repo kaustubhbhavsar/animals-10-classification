@@ -36,7 +36,7 @@ class MobileNetV3L:
         inputShape = (height, width, depth)
         seed = 42 # set seed
         
-		# if we are using "channels first", update the input shape and channels dimension
+	# if we are using "channels first", update the input shape and channels dimension
         if K.image_data_format() == "channels_first":
             inputShape = (depth, height, width)
         
