@@ -15,7 +15,7 @@
 
 <b>Challenges:</b>
 
-    1.  Classifying 26,000 images into 10 classes results in fewer images per category.
+    1.  Classifying more than 26,000 images into 10 classes results in fewer images per category.
     2.  The dataset is imbalanced, i.e., few categories have a large number of images compared to others.
     3.  Images are varying in size and medium in quality.
 
