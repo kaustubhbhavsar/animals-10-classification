@@ -36,7 +36,7 @@ class LeNet:
         # normalizing the images
         model.add(Rescaling(1./255, input_shape=inputShape))
 
-  		# define the model layers
+  	    # define the model layers
         model.add(Conv2D(20, (5, 5), padding="same", input_shape=inputShape))
         model.add(Activation("relu"))
         model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
