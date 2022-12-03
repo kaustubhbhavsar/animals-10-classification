@@ -33,7 +33,7 @@ class MiniVGGNet:
         inputShape = (height, width, depth)
         chanDim = -1
 
-		# if we are using "channels first", update the input shape and channels dimension
+	# if we are using "channels first", update the input shape and channels dimension
         if K.image_data_format() == "channels_first":
             inputShape = (depth, height, width)
             chanDim = 1
@@ -41,7 +41,7 @@ class MiniVGGNet:
         # normalizing the images
         model.add(Rescaling(1./255, input_shape=inputShape))
 
-  		# first CONV => RELU => CONV => RELU => POOL layer set
+  	# first CONV => RELU => CONV => RELU => POOL layer set
         model.add(Conv2D(32, (3, 3), padding="same", input_shape=inputShape))
         model.add(Activation("relu"))
         model.add(BatchNormalization(axis=chanDim))
@@ -51,7 +51,7 @@ class MiniVGGNet:
         model.add(MaxPooling2D(pool_size=(2, 2)))
         model.add(Dropout(0.25))
 
-  		# second CONV => RELU => CONV => RELU => POOL layer set
+  	# second CONV => RELU => CONV => RELU => POOL layer set
         model.add(Conv2D(64, (3, 3), padding="same"))
         model.add(Activation("relu"))
         model.add(BatchNormalization(axis=chanDim))
