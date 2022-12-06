@@ -34,7 +34,7 @@ Shallownet (<a href="Scripts/shallownet.py">shallownet.py</a>), Lenet (<a href="
 *   Common users, using a mobile application to identify animals.
 
 In both the mentioned scenarios, mobile and embedded vision system is used and MobileNet model architecture is specifically desined for it.
-Resnet50v2 (<a href="Scripts/resnet50v2.py">resnet50v2.py</a>) model architecture is used to comparative analysis with MobileNetV3 model architectures.
+Resnet50v2 (<a href="Scripts/resnet50v2.py">resnet50v2.py</a>) model architecture is used to compare performance with MobileNetV3 model architectures.
 
 Class imbalance issue is handled using class weights.
 
