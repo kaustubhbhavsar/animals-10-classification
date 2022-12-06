@@ -11,7 +11,7 @@
 
 <!-- ABOUT PROJECT -->
 ## What Is It?
-<a href="https://www.kaggle.com/datasets/alessiocorrado99/animals10">Animals-10</a> is an image dataset with 10 output classes, i.e., 10 classes of 10 different animals. According to the information given by the dataset provider, the data is collected from Google Images and verified by a human. The dataset contains around 26,000 images.
+Animalica is an multiclass image classification project with 10 output classes, i.e., 10 classes of 10 different animals. The project uses <a href="https://www.kaggle.com/datasets/alessiocorrado99/animals10">Animals-10</a> dataset. According to the information given by the dataset provider, the data is collected from Google Images and verified by a human. The dataset contains around 26,000 images.
 
 <b>Challenges:</b>
 
