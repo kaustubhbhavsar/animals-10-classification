@@ -20,7 +20,7 @@
     3.  Images are varying in size and medium in quality.
 
 
-> <b>Aim of the project is to handle class imbalance and perform multiclass image classification.</b>
+> <b>Aim of the project is to handle class imbalance in multiclass image classification and serve the best model using flask API.</b>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -74,8 +74,11 @@ Model is served using flask API. Predictions are done by loading the saved Mobil
     ├── data_analysis.ipynb               # Data analysis (notebook) 
     └── image_size_analysis.ipynb         # Image size analysis (notebook)
 ├── Model Serving                         # Model serving files
-    ├── Static                            # All CSS files
-        ├── ...      
+    ├── Static                            # Staic files
+        ├── css                           # CSS files
+          ├── ...      
+        ├── uploads                       # Contains uploaded images
+          ├── ...      
     ├── templates                         # All HTML files
         ├── ...                           
     ├── app.py                            # Runs flask
