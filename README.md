@@ -4,7 +4,7 @@
 <div align="center">
   <h3 align="center">Identifying Animals from Images</h3>
   <p align="center">
-    Multiclass Classification | Transfer Learning | Class Imbalance
+    Multiclass Classification | Transfer Learning | Class Imbalance | Model Serving
     
   </p>
 </div>
@@ -61,6 +61,8 @@ Although, <b>MobileNetV3Large Model 2</b> performs slightly better than <b>Mobil
 
 All the four models are saved in H5 format in <a href="Models">Models</a> directory.
 
+Model is served using flask API. Predictions are done by loading the saved MobileNetV3Large Model 1. All the required html, css, and python files for model serving are in <a href="Model Serving">Model Serving</a> folder.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -71,6 +73,13 @@ All the four models are saved in H5 format in <a href="Models">Models</a> direct
 ├── Data Analysis                         # Data analysis files
     ├── data_analysis.ipynb               # Data analysis (notebook) 
     └── image_size_analysis.ipynb         # Image size analysis (notebook)
+├── Model Serving                         # Model serving files
+    ├── Static                            # All CSS files
+        ├── ...      
+    ├── templates                         # All HTML files
+        ├── ...                           
+    ├── app.py                            # Runs flask
+    ├── app_helper.py                     # Gets prediction 
 ├── Models                                # Saved trained model files
     ├── mobilenetv3l_basic_10_0.113.h5    # MobileNetV3Large model 1 
     ├── mobilenetv3l_dense_04_0.110.h5    # MobileNetV3Large model 2
