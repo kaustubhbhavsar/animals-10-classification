@@ -111,7 +111,7 @@ Model is served using flask API. Predictions are done by loading the saved Mobil
 ## Languge and Libraries
 
 *   Language: Python
-*   Libraries: Tensorflow, Keras, Matplotlib, Seaborn, Numpy, Pandas, Shutil, PIL, OS, Imutils.
+*   Libraries: Tensorflow, Keras, Matplotlib, Seaborn, Numpy, Pandas, Flask, Shutil, PIL, OS, Imutils.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
