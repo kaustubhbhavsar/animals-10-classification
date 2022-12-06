@@ -2,7 +2,7 @@
 
 <br />
 <div align="center">
-  <h3 align="center">Identifying Animals from Images</h3>
+  <h3 align="center">Animalica</h3>
   <p align="center">
     Multiclass Classification | Transfer Learning | Class Imbalance | Model Serving
     
