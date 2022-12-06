@@ -1,0 +1,6 @@
+.center-screen {
+    margin:0 auto;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+  }
