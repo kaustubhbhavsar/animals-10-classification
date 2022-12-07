@@ -63,6 +63,9 @@ All the four models are saved in H5 format in <a href="Models">Models</a> direct
 
 Model is served using flask API. Predictions are done by loading the saved MobileNetV3Large Model 1. All the required html, css, and python files for model serving are in <a href="Model Serving">Model Serving</a> folder.
 
+Upload Image             |  Predicted Label
+:-------------------------:|:-------------------------:
+![alt text](https://github.com/kaustubhbhavsar/animals-10-classification/blob/main/Model%20Serving/web%20app%20screenshots/uploader1.png?raw=true) | ![alt text](https://github.com/kaustubhbhavsar/animals-10-classification/blob/main/Model%20Serving/web%20app%20screenshots/uploader2.png?raw=true)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
