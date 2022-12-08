@@ -114,7 +114,7 @@ Upload Image             |  Predicted Label
 ## Languge and Libraries
 
 *   Language: Python
-*   Libraries: Tensorflow, Keras, Matplotlib, Seaborn, Numpy, Pandas, Flask, Shutil, PIL, OS, Imutils.
+*   Libraries: Tensorflow, Keras, Scikit-Learn, Matplotlib, Seaborn, Numpy, Pandas, Flask, Shutil, PIL, OS, Imutils.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
